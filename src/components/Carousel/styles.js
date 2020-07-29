@@ -45,6 +45,9 @@ export const VideoCardList = styled.ul`
   li {
     margin-right: 16px;
   }
+  ul :hover{
+    height: 500px;
+  }
 `;
 
 export const VideoCardGroupContainer = styled.section`

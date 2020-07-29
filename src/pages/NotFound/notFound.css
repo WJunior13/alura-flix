@@ -1,0 +1,26 @@
+.NotFound {
+    font-size: 50px;
+    text-decoration: bisque;
+    text-align: center;
+}
+
+.return {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 185px;
+   
+}
+
+.return :hover {
+    cursor:pointer;
+    color: blue;
+    font-size: 33px;
+}
+a{
+    text-decoration: dashed;
+}
+#elementID {
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
