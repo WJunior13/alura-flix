@@ -16,7 +16,7 @@ const Container = styled.ul`
     height: 30px;
     transform: initial;
     &:before {
-      font-size: 30px;
+      font-size: 70px;
     }
   }
   
@@ -24,7 +24,7 @@ const Container = styled.ul`
     left: 0;
   }
   .slick-next {
-    right: 16px;
+    right: 56px;
   }
 `;
 

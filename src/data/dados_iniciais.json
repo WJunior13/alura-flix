@@ -5,29 +5,29 @@
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Os melhores cursos Front End",
+        "url": "https://www.youtube.com/results?search_query=curso+front+end"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Como começar a programar?",
+          "url": "https://www.youtube.com/watch?v=nLPssMXOExM"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "FrontEnd-Curso em Video",
+          "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHsIIjPB6DUJzYCgmrqJizURxuGyD_Ub9"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "As Skills de um Desenvolvedor Front-End // Vlog #70",
+          "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE"
         },
         {
           "titulo": "Pare de chutar e aprenda a display: inline #01",
           "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Front End Projects from Traversy ",
+          "url": "https://www.youtube.com/watch?v=4M6qPoFWIxI&list=PL-yZTS4SFVl3cX_o2zLO1z0yn2Wh7DwlK"
         },
         {
           "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
@@ -38,22 +38,66 @@
           "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
         },
         {
+          "titulo": "UpLoad de arquivos:front-end com React",
+          "url": "https://www.youtube.com/watch?v=G5UZmvkLWSQ"
+        },
+        {
+          "titulo": " Criando um Projeto Front-End com Node.JS + SASS + Bootstrap 4",
+          "url": "https://www.youtube.com/watch?v=Hm8Q28wPogM"
+        },
+        {
           "titulo": "Base para aprender os frameworks",
           "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
         }        
       ]
     },
+    
+{
+  "titulo": "Dicas",
+  "cor": "#6b5be2",
+  "link_extra": {
+    "text": "Como programar de maneira eficiente",
+    "url": "https://www.youtube.com/results?search_query=como+programar+melhor"
+  },
+  "videos": [
+    {
+      "titulo": "Como programar melhor",
+      "url": "https://www.youtube.com/watch?v=idZ5DspU_Bs"
+    },
+    {
+      "titulo": "Seja um bom programador // Vlog #1",
+      "url": "https://www.youtube.com/watch?v=G45jiKrT2I4"
+    },
+    {
+      "titulo": "Frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+    
+      "titulo": "10 DICAS de OURO para se tornar um BOM PROGRAMADOR",
+      "url": "https://www.youtube.com/watch?v=yvBrYtKoT2g"
+    },
+    {
+      "titulo": "Fala Dev #5 - 5 dicas para uma carreira sólida como programador",
+      "url": "https://www.youtube.com/watch?v=WKAi7ZDkiYA"
+    },
+    {
+      "titulo": "Como aprender a programar?",
+      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+    }
+  ]
+},
     {
       "titulo": "Back End",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Os Melhores Cursos de Back End",
+        "url": "https://www.youtube.com/results?search_query=cursos+backend"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Seja um Programador Back-End de Sucesso// Vlog #98",
+          "url": "https://www.youtube.com/watch?v=TJ90DZjYdWI"
         },
         {
           "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
@@ -68,6 +112,19 @@
           "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
         }, 
         {
+          "titulo": "Entendendo Back-End para Iniciantes em Programação",
+          "url": "https://www.youtube.com/watch?v=Qjk-cSW-jk4"
+        }, 
+        {
+          "titulo": "APLICAÇÃO BACK-END COM NODE.js - CURSO DE JAVASCRIPT",
+          "url": "https://www.youtube.com/watch?v=AHWYDpI70zQ"
+        },
+        {
+          "titulo": "  [API NodeJS + Express + Mongo] Estrutura e cadastro",
+          "url": "https://www.youtube.com/watch?v=BN_8bCfVp88"
+        },
+      
+        {
           "titulo": "Usando Git Direito",
           "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
         }
@@ -76,14 +133,11 @@
     {
       "titulo": "Data Science e Inteligência Artificial",
       "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "A história da Inteligência Artificial ",
+          "url": "https://www.youtube.com/watch?v=Lhu8bdmkMCM"
         },
         {
           "titulo": "O que é Data Science?",
@@ -104,30 +158,33 @@
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Invasores- Nenhum Sistema Está à Salvo",
+          "url": "https://youtu.be/YQ-_BWFsL1o?list=PLsiPSRLxRO-BLlxXm7PBTXCR4RETFBxj9"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "A HISTÓRIA DA INFORMAÇÃO",
+          "url": "https://youtu.be/ppNCQ5cC5uA?list=PLsiPSRLxRO-BLlxXm7PBTXCR4RETFBxj9"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Aplicativo da Morte",
+          "url": "https://youtu.be/4LwwP7pIqUM?list=PLsiPSRLxRO-BLlxXm7PBTXCR4RETFBxj9"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Códigos De Defesa",
+          "url": "https://youtu.be/SAGDPGPIEBA?list=PLsiPSRLxRO-BLlxXm7PBTXCR4RETFBxj9"
+        },
+        {
+          "titulo": "Steve Jobs",
+          "url": "https://youtu.be/6vMMufjBaAA"
         }
+        
+
       ]
     },
     {
       "titulo": "Games",
       "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
+     
       "videos": [
         {
           "titulo": "Final Fantasy 7",
@@ -150,36 +207,7 @@
           "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
         }
       ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
-        }
-      ]
     }
+  
   ]
 }
