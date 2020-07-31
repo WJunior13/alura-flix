@@ -97,7 +97,7 @@ input {
 button {
   background: transparent;
   border: 1px solid white;
-  color: white;
+  color: var(--primary);
   font-family: "Roboto",sans-serif;
   box-sizing: border-box;
   cursor: pointer;

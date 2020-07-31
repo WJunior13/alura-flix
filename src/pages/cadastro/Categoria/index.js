@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
-import FormField from '../../../components/FormField/index';
+import FormField from '../../../components/FormField';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -28,18 +28,36 @@ function CadastroCategoria() {
     );
   }
 
+  // ============
+
+  useEffect(() => {
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categorias';
+      fetch(URL)
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias(resposta);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        })
+    }
+  }, []);
+
   return (
     <PageDefault>
       <h1>Cadastro de Categoria: {values.nome}</h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
-          infosDoEvento.preventDefault();
-          setCategorias([
-            ...categorias,
-            values
-          ]);
+        infosDoEvento.preventDefault();
 
-          setValues(valoresIniciais)
+        setCategorias([
+          ...categorias,
+          values
+        ]);
+
+        setValues(valoresIniciais)
       }}>
 
         <FormField
@@ -92,13 +110,13 @@ function CadastroCategoria() {
           Cadastrar
         </button>
       </form>
-      
+
 
       <ul>
         {categorias.map((categoria, indice) => {
           return (
             <li key={`${categoria}${indice}`}>
-              {categoria.nome}
+              {categoria.titulo}
             </li>
           )
         })}

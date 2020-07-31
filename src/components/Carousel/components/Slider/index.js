@@ -16,7 +16,7 @@ const Container = styled.ul`
     height: 30px;
     transform: initial;
     &:before {
-      font-size: 70px;
+      font-size: 50px;
     }
   }
   
@@ -26,6 +26,7 @@ const Container = styled.ul`
   .slick-next {
     right: 56px;
   }
+ 
 `;
 
 export const SliderItem = styled.li`
