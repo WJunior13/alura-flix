@@ -18,4 +18,14 @@ export const FooterBase = styled.footer`
     font-weight: bolder;
     
   }
+  .Logo {
+  max-width: 130px;
+}
+
+@media (max-width: 800px) {
+  .Logo {
+    max-width: 80px;
+  }
+}
+
 `;

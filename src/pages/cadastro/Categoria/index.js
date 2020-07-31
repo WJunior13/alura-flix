@@ -32,7 +32,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias';
+      const URL = ' https://devfliixx.herokuapp.com/categorias';
       fetch(URL)
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {
@@ -111,19 +111,24 @@ function CadastroCategoria() {
         </button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+           loading
+        </div>
+      )}
 
-      <ul>
-        {categorias.map((categoria, indice) => {
-          return (
-            <li key={`${categoria}${indice}`}>
-              {categoria.titulo}
-            </li>
-          )
-        })}
-      </ul>
+        <ul>
+          {categorias.map((categoria, indice) => {
+            return (
+              <li key={`${categoria}${indice}`}>
+                {categoria.titulo}
+              </li>
+            )
+          })}
+        </ul>
 
-      <Link to="/">
-        Ir para home
+        <Link to="/">
+          Ir para home
       </Link>
     </PageDefault>
   )

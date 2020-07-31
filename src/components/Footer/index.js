@@ -4,11 +4,11 @@ import { FooterBase } from './styles';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="../../../public/icon.png" alt="Logo Alura" />
-      </a>
       <p>
-        Criado por <a href="/">Junior Tavares Carrer</a> durante a
+        <img className="Logo" src="https://fontmeme.com/permalink/200729/d7981625e6f42a856918a1577c4afadf.png" alt="Logo Alura" />
+      </p>
+      <p>
+        Criado por <a href="https://www.linkedin.com/in/junior-carrer/">Junior Tavares Carrer</a> durante a
         {' '}
         <a href="https://www.alura.com.br/">
           Imersão React da Alura
